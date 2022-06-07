@@ -18,14 +18,14 @@ minimal_mistakes_skin    : "air" # "default", "aqua", "contrast", "dark", "dirt"
 locale                   : "en-US"
 title                    : "Hi, I am Debjit."
 title_separator          : "-"
-subtitle                 : " Welcome to my personal website."
+subtitle                 : "Welcome to my personal website."
 name                     : "Debjit Bhowmick"
 description              : "My personal website"
 url                      : ""# the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "debjitbhowmick/debjitbhowmick.github.io" #e.g. "mmistakes/minimal-mistakes"
 teaser                   : "/assets/DebjitBhowmick8250.jpg"
-logo                     : "/assets/images/88x88.png"
+logo                     : "/assets/DebjitBhowmick8250.jpg"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -105,7 +105,7 @@ analytics:
 # Site Author
 author:
   name             : "Debjit Bhowmick"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/DebjitBhowmick8250.jpg"
   bio              : "Currently working as a Research Fellow at Monash University. I have research interests in Transportation Engineering, Geospatial Information, Transport Modelling, and Active Mobility."
   location         : "Melbourne, Australia"
   email            : "Debjit.Bhowmick@monash.edu"

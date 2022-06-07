@@ -111,7 +111,7 @@ author:
   email            : "Debjit.Bhowmick@monash.edu"
   links:
     - label: "Google Scholar"
-      icon: <img src="https://img.icons8.com/color/48/undefined/google-scholar--v3.png"/>
+      icon: "ai ai-google-scholar-square ai-3x"
       url: "https://scholar.google.com.au/citations?user=hbStLVgAAAAJ&hl=en"
     - label: "Website"
       icon: "fas fa-fw fa-link"

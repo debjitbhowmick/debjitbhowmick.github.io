@@ -96,10 +96,10 @@ social:
 
 # Analytics
 analytics:
-  provider               : false # false (default), "google", "google-universal", "google-gtag", "custom"
+  provider               : "google" #, "google-universal", "google-gtag", "custom" #false # false (default), 
   google:
     tracking_id          :
-    anonymize_ip         : # true, false (default)
+    anonymize_ip         : true, #false (default)
 
 
 # Site Author
@@ -110,9 +110,9 @@ author:
   location         : "Melbourne, Australia"
   email            : "Debjit.Bhowmick@monash.edu"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "Debjit.Bhowmick@monash.edu"
+    - label: "Google Scholar"
+      icon: <img src="https://img.icons8.com/color/48/undefined/google-scholar--v3.png"/>
+      url: "https://scholar.google.com.au/citations?user=hbStLVgAAAAJ&hl=en"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://github.com/debjitbhowmick/debjitbhowmick.github.io"

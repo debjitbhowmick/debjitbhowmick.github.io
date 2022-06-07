@@ -108,11 +108,11 @@ author:
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Currently working as a Research Fellow at Monash University. I have research interests in Transportation Engineering, Geospatial Information, Transport Modelling, and Active Mobility."
   location         : "Melbourne, Australia"
-  email            :
+  email            : "Debjit.Bhowmick@monash.edu"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "debjit.bhowmick@monash.edu"
+      url: "Debjit.Bhowmick@monash.edu"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://github.com/debjitbhowmick/debjitbhowmick.github.io"

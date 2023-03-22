@@ -49,6 +49,14 @@ ul {
   padding: 0;
 }
 
+ul li {
+  margin-left: 20px;
+}
+
+ul ul {
+  margin-left: 20px;
+}
+
 li {
   margin-bottom: 10px;
 }

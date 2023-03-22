@@ -85,3 +85,12 @@ input[type="submit"] {
   color: white;
   padding: 10px 20px;
 }
+
+.horizontal-list {
+  list-style: none; /* remove default bullet points */
+  display: flex; /* make list items display as a horizontal row */
+}
+
+.horizontal-list li {
+  margin-right: 10px; /* add spacing between list items */
+}

@@ -44,7 +44,7 @@ h1 {
 }
 
 ul {
-  list-style: none;
+  list-style-type: circle;
   margin: 0;
   padding: 0;
 }

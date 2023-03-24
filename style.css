@@ -100,3 +100,26 @@ input[type="submit"] {
 		text-align: justify;
 	}
 </style>
+
+form {
+  display: flex;
+  align-items: center;
+}
+
+input[type="text"] {
+  padding: 8px;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+}
+
+button[type="submit"] {
+  margin-left: 8px;
+  padding: 8px;
+  border: none;
+  border-radius: 4px;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+}
+

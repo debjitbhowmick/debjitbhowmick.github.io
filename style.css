@@ -94,3 +94,9 @@ input[type="submit"] {
 .horizontal-list li {
   margin-right: 10px; /* add spacing between list items */
 }
+
+<style>
+	.justified {
+		text-align: justify;
+	}
+</style>

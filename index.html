@@ -36,6 +36,31 @@
       padding: 20px 0;
       text-align: center;
     }
+    .timeline-dot {
+      background-color: #222 !important;
+      border: 2px solid #fff;
+    }
+    .timeline {
+      position: relative;
+      padding-left: 30px;
+    }
+    .timeline-item {
+      position: relative;
+      padding-left: 20px;
+    }
+    .timeline-item:not(:last-child) {
+      margin-bottom: 30px;
+    }
+    .timeline-line {
+      position: absolute;
+      left: 15px;
+      top: 0;
+      width: 4px;
+      height: 100%;
+      background: #222;
+      z-index: 0;
+      border-radius: 2px;
+    }
   </style>
 </head>
 
@@ -78,31 +103,6 @@
       </div>
 
       <!-- Text Column -->
-      <div class="col-md-8">
-        <h2 class="display-5 fw-bold mb-3">About Me</h2>
-        <div class="p-4 shadow rounded bg-white">
-          <p class="mb-3">
-            I’m a <strong>transport engineer</strong> and <strong>data scientist</strong> with a passion for using data-driven insights to shape sustainable, community-focused transport systems.
-          </p>
-          <p class="mb-3">
-            With over five years of experience spanning academia and industry, I specialise in <strong>transport modelling</strong>, <strong>demand forecasting</strong>, and <strong>project management</strong> for active and shared mobility initiatives.
-          </p>
-          <p class="mb-3">
-            I excel at transforming complex mobility data into clear, strategic recommendations that help policymakers improve infrastructure and empower community travel choices.
-          </p>
-          <p class="mb-3">
-            I’ve worked closely with government bodies, private consultancies, and interdisciplinary teams to drive collaborative transport planning outcomes that are both evidence-based and forward-thinking.
-          </p>
-          <p class="mb-3">
-            Currently, I serve as a <strong>Research Fellow at Monash University</strong>, leading projects on active mobility. I regularly apply tools like <strong>Python</strong>, <strong>GIS</strong>, and <strong>agent-based modelling</strong> to deliver actionable insights.
-          </p>
-          <p class="fw-semibold text-primary">
-            I’m enthusiastic about the future of sustainable transport and always keen to connect with others working to make cities more liveable and equitable.
-          </p>
-        </div>
-      </div>
-    </div>
-
     <!-- Career Timeline -->
     <div class="row mt-5 justify-content-center">
       <div class="col-lg-10">
@@ -111,10 +111,11 @@
 
           <!-- Timeline Item: Research Fellow, Monash University -->
           <div class="timeline-item mb-5">
-            <div class="timeline-dot bg-primary"></div>
+            <div class="timeline-dot bg-dark"></div>
             <div class="timeline-content ms-5">
               <h5 class="mb-1 fw-bold">Research Fellow</h5>
-              <span class="text-primary">Monash University</span>
+              <div class="text-muted mb-1 small">Sustainable Mobility & Safety Research</div>
+              <span class="text-dark">Monash University</span>
               <span class="text-muted ms-2">2021–Present</span>
               <p class="mb-0 small">Leading research on sustainable mobility and safety, including the CYCLED Study and agent-based modelling.</p>
             </div>
@@ -122,10 +123,11 @@
 
           <!-- Timeline Item: PhD, University of Melbourne & KIT -->
           <div class="timeline-item mb-5">
-            <div class="timeline-dot bg-success"></div>
+            <div class="timeline-dot bg-dark"></div>
             <div class="timeline-content ms-5">
               <h5 class="mb-1 fw-bold">PhD in Engineering</h5>
-              <span class="text-success">University of Melbourne & KIT</span>
+              <div class="text-muted mb-1 small">Joint Program</div>
+              <span class="text-dark">University of Melbourne & KIT</span>
               <span class="text-muted ms-2">2018–2022</span>
               <p class="mb-0 small">Developed walk-sharing concept and agent-based simulation for urban mobility.</p>
             </div>
@@ -133,30 +135,33 @@
 
           <!-- Timeline Item: Transport Modelling Consultant, Jacobs -->
           <div class="timeline-item mb-5">
-            <div class="timeline-dot bg-info"></div>
+            <div class="timeline-dot bg-dark"></div>
             <div class="timeline-content ms-5">
               <h5 class="mb-1 fw-bold">Transport Planner</h5>
-              <span class="text-info">Jacobs</span>
+              <div class="text-muted mb-1 small">Transport Modelling Consultant</div>
+              <span class="text-dark">Jacobs</span>
               <span class="text-muted ms-2">2017–2018</span>
             </div>
           </div>
 
           <!-- Timeline Item: M.Tech, IIT Kharagpur -->
           <div class="timeline-item mb-5">
-            <div class="timeline-dot bg-warning"></div>
+            <div class="timeline-dot bg-dark"></div>
             <div class="timeline-content ms-5">
               <h5 class="mb-1 fw-bold">M.Tech. in Transportation Engineering</h5>
-              <span class="text-warning">IIT Kharagpur</span>
+              <div class="text-muted mb-1 small">Postgraduate Degree</div>
+              <span class="text-dark">IIT Kharagpur</span>
               <span class="text-muted ms-2">2015–2017</span>
             </div>
           </div>
 
           <!-- Timeline Item: B.E., Jadavpur University -->
           <div class="timeline-item">
-            <div class="timeline-dot bg-secondary"></div>
+            <div class="timeline-dot bg-dark"></div>
             <div class="timeline-content ms-5">
               <h5 class="mb-1 fw-bold">B.E. in Civil Engineering</h5>
-              <span class="text-secondary">Jadavpur University</span>
+              <div class="text-muted mb-1 small">Undergraduate Degree</div>
+              <span class="text-dark">Jadavpur University</span>
               <span class="text-muted ms-2">2010–2014</span>
             </div>
           </div>
@@ -166,60 +171,7 @@
         </div>
       </div>
     </div>
-    <style>
-      .timeline {
-        position: relative;
-        padding-left: 30px;
-      }
-      .timeline-line {
-        position: absolute;
-        left: 15px;
-        top: 0;
-        width: 2px;
-        height: 100%;
-        background: linear-gradient(to bottom, #0f2027 0%, #203a43 50%, #2c5364 100%);
-        border-radius: 1px;
-        z-index: 0;
-      }
-      .timeline-item {
-        position: relative;
-        z-index: 1;
-        min-height: 60px;
-      }
-      .timeline-dot {
-        position: absolute;
-        left: 6px;
-        top: 8px;
-        width: 18px;
-        height: 18px;
-        border-radius: 50%;
-        box-shadow: 0 2px 8px rgba(44,83,100,0.10);
-        border: 2px solid #fff;
-        z-index: 2;
-      }
-      .timeline-content {
-        padding-left: 10px;
-      }
-      .timeline-content h5 {
-        margin-bottom: 0.25rem;
-      }
-      @media (max-width: 576px) {
-        .timeline {
-          padding-left: 20px;
-        }
-        .timeline-line {
-          left: 10px;
-        }
-        .timeline-dot {
-          left: 2px;
-        }
-        .timeline-content {
-          margin-left: 30px;
-        }
-      }
-    </style>
-  </div>
-</section>
+          
 
 <section id="consulting" class="section bg-light">
   <div class="container">
